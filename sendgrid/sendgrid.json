@@ -1,0 +1,157 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"response": {
+					"status": 202,
+					"body": "",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Headers": [
+							"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl"
+						],
+						"Access-Control-Allow-Methods": [
+							"POST"
+						],
+						"Access-Control-Allow-Origin": [
+							"https://sendgrid.api-docs.io"
+						],
+						"Access-Control-Max-Age": [
+							"600"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Content-Type": [
+							"text/plain; charset=utf-8"
+						],
+						"Date": [
+							"Thu, 01 Jun 2017 21:41:08 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"X-Frame-Options": [
+							"DENY"
+						],
+						"X-Message-Id": [
+							"5KOmYUDlRem_70GxBbTpkg"
+						],
+						"X-No-Cors-Reason": [
+							"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/v3/mail/send"
+					},
+					"method": {
+						"exactMatch": "POST"
+					},
+					"destination": {
+						"exactMatch": "api.sendgrid.com"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"jsonMatch": "{\"personalizations\": [{\"to\": [{\"email\": \"test@example.com\"}]}],\"from\": {\"email\": \"test@example.com\"},\"subject\": \"Sending with SendGrid is Fun\",\"content\": [{\"type\": \"text/plain\", \"value\": \"and easy to do anywhere, even with cURL\"}]}"
+					},
+					"headers": {
+						"Authorization": [
+							"Bearer my-key"
+						]
+					}
+				}
+			},
+			{
+				"response": {
+					"status": 400,
+					"body": "{\"errors\":[{\"message\":\"The to array is required for all personalization objects, and must have at least one email object with a valid email address.\",\"field\":\"personalizations.0.to\",\"help\":\"http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.personalizations.to\"}]}",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Headers": [
+							"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl"
+						],
+						"Access-Control-Allow-Methods": [
+							"POST"
+						],
+						"Access-Control-Allow-Origin": [
+							"https://sendgrid.api-docs.io"
+						],
+						"Access-Control-Max-Age": [
+							"600"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Content-Type": [
+							"application/json"
+						],
+						"Date": [
+							"Thu, 01 Jun 2017 21:41:42 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"X-Frame-Options": [
+							"DENY"
+						],
+						"X-No-Cors-Reason": [
+							"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/v3/mail/send"
+					},
+					"method": {
+						"exactMatch": "POST"
+					},
+					"destination": {
+						"exactMatch": "api.sendgrid.com"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"jsonMatch": "{\"personalizations\": [{\"to\": []}],\"from\": {\"email\": \"test@example.com\"},\"subject\": \"Sending with SendGrid is Fun\",\"content\": [{\"type\": \"text/plain\", \"value\": \"and easy to do anywhere, even with cURL\"}]}"
+					},
+					"headers": {
+						"Authorization": [
+							"Bearer my-key"
+						]
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v2",
+		"hoverflyVersion": "v0.11.4",
+		"timeExported": "2017-06-01T22:42:19+01:00"
+	}
+}
