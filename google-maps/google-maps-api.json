@@ -1,0 +1,151 @@
+{
+	"data": {
+		"pairs": [
+      {
+				"response": {
+					"status": 200,
+					"body": "H4sIAAAAAAAC/92bXVNbOQyG7/kVDNdLx5ZkW947ykAIU2gLoWmzs8MEEj42n01SGtrpf1+HnHQ6wETePTiG5iIXJ4Y8li3plex8X1tf3xj3m8Nhu/VucN2fjDf+XP8rPFxf/373Hj7uDs6bk+tBP3yyeDZ7Gp5NvrTa4ekmmlfgWCli7z0qzfzHLwMH/cvFSE3+lQZvUHvPjqAY9WMxfGMwur687je71X6rPQ1/oH5+Muw2z9vVVni2sX1V3R+dTruq0jrc7Y2PxieTk7O6+7z1+mBj7Zf/959nQNqb5eRkzWyOs9cD9hdHaJsfK+3e1R1hY+f0297nq96oQqUIPTjUywkRWc0B+eUT1s5rrQbMCT8OOgfUq2/XLzrlCI1xywHBO3y5ZNcnF4fvi1U9Hm9VN3XP3urLcmRWF0vmvRUQmUXXSINITAKa8/oFo50e3e6+L7bcYG9/6ylCnvfkIG5hNXv6DRDf3t4OawVi4/VkfF55o64mX8sgskJAYyk4sNKwHFF5hRoYw2gxPevVzoFAMK9iA5HJ7/kTjnh6VKvMCb8dnG2Oppf/jIfn5QhJ+YU8EISEsrkQWbsCUSJ8KCBXAWgMCQIikIlZMAmaFfef03mM9iRkN2akxr3uHZnpf+k3vzi/e1NKDwayEBTjordi4khdmITUWRBcQiuyWdA4VB4CGqo8aMEbJTTrRXdNg2YZ1PwlyS+VZctppdEbZ8iCtPWAUCkIsfEh6H3ZAKudAjIVRpaKF6sfap6VIHoUQk+QZKL8ToTmhIVH7bI49hOhDT8dHI8KtI+d7UG105hevi5VT7HWBjAupxCY3wHRKn0wqBcL3LvpXLwbwuBmqySik6pScnJSSYIGYKQmJ2kxqaRBc06Qp1Y5E9sjTEGIKNSgNmiyPGReSsQOrJsnE1GtJiEko4vvV0IB5xzLDdYkiNbMiketCYSEGwgNA1LYkKJowJXOwWjDhZkFP2cwomhIgxi+ufBiFBBtHkJr7aKyEvaqV3J3MQmiQyfsUY8uT5QMAofjEnQI6HmCETNFNt29s3kiuiec2ceS8UJW9EwwEzuPdGjvxyJa7RSMd5FWZguxR2sJSEGh0bGkeTI8aDBChvdsssQiWJguxpsoi7YEcCiUXN7IB4BJ0IKKEDK1R/HsJQkZhTpGSn+Z1pNQKqHZUx5HfRq0tn/zrl+gud7+V+592vtaUSXRfh73SY7KjHkQDTpBcrGBTGgOF6pQ0q2oRen1AhCbJ8PaVWWOeLBXnw723M7bcbnzFLDWLLqawh50RCZSFCQhdaQwrv9qrezQSRBZ/VRYgtcYtxiYx5hBJeCsF4/BfQVSG+pvGyQZP7TpfT1rVjuHsCOFth4bMVUnQfMAkTc5SFEmRNQm7swIWe5+p0BEBVYImzqiN/WM0W5buH9dJB1/dPIZbo9rtcb7kmhSYRJSkrieacicdLirlHyv6Rmj1Y/PuNob3qENT2l/a7q/u6PLCVjUiIxOqSABl+c99hg82iryj1QB90O1XfEciKLiYZgDxd6ZTUPqFUalcGZr8yCCUctjD7MisfWQBG22WZejObJiiZoGTfJwtpkcnIjjxAI/dpdyFYSzbpxApmSllQYtBIzlaCbiAmIStBAf4u5IBpWqYkurJKQO7CI8C+5rAPNsQbZxtzmZPOqctvRe6NIxWRaPWVKgkQLhrDegLerSLMZ7WsJGmye79TkhnY0a+qbb6sBOSUIDQrwh421OQqTIwo5Jgxi00yCy0FUMdpab7M8Y7cPU1ZowR5v6t1W/3T80k2o5NOO1oA9mgfwFo03q061GEVK6ZyfbnXP7YdIvGVKMd4u2oZA5QpElStMkiG4mi13IWsjLz5aDVgxKa3Z1yMm/eXX/bw7h/e+1H2v/ApiaiDzSOwAA",
+					"encodedBody": true,
+					"headers": {
+						"Alt-Svc": [
+							"quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+						],
+						"Cache-Control": [
+							"private"
+						],
+						"Content-Encoding": [
+							"gzip"
+						],
+						"Content-Type": [
+							"application/json; charset=UTF-8"
+						],
+						"Date": [
+							"Thu, 31 Aug 2017 11:25:17 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"ESF"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"Vary": [
+							"Origin",
+							"X-Origin",
+							"Referer"
+						],
+						"X-Content-Type-Options": [
+							"nosniff"
+						],
+						"X-Frame-Options": [
+							"SAMEORIGIN"
+						],
+						"X-Xss-Protection": [
+							"1; mode=block"
+						]
+					},
+					"templated": false
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/v1/snapToRoads"
+					},
+					"method": {
+						"exactMatch": "GET"
+					},
+					"destination": {
+						"exactMatch": "roads.googleapis.com"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"globMatch": "interpolate=true\u0026key=*\u0026path=-35.27801,149.12958|-35.28032,149.12907|-35.28099,149.12929|-35.28144,149.12984|-35.28194,149.13003|-35.28282,149.12956|-35.28302,149.12881|-35.28473,149.12836"
+					},
+					"body": {
+						"jsonMatch": ""
+					}
+				}
+			},
+			{
+				"response": {
+					"status": 200,
+					"body": "H4sIAAAAAAAC/62VXW+bMBSG7/MrLF/TyuYr8S5XZdOWadn6cZFVFfKwR9CMzcAka6v89xnCUghkMKXcROS8x37Oy4t5ngAAYMbzQugcgjfgvvzDXM/1b1mmjBlFHoQqSZXksq3s6OsuoWQUSJrwUgy9C4yh1RHla5XpQZV+TPl+T9OhM85NS5F85xkEDy3xzvovqE90E8tIKwluqlWHAZsdA6CZKjQ/F1BJpuQIrFO6JlCqck1FoNVWnon1PuNU8wyMxRvUNzEpS2IZm8dMdbzhATW9geAbLgIbWuUUItZxSMWZM8xlJKhkw/CnheOo8WtS38lYcwYWJoRMJSOcfzvAHapC6uzxNRlv5higz9+G4U4Le2IbKtZ9m17uHhqLwB8qS6g2RgX10XU4XEDzBbbqQIIaxAJ3iyYMjLhKeOmOaW9PbUYOzZM2Ye6UqirVZcHDlx5yiev43RGFjErJBbrECCHXd/9l+WG7oHSmmuZ6uXx3u/xyZB7cxHybGpf7uaSprDnN+8vH5L5NbG+GbIK9Dn97BERmPpm6mEzRzCVT4h/Ldz1hMOfjestHsjgecf1q/SEWjLBDPGfPjewOyakENRFhKmjIg5hVVl+tP3xMV1je/prN2c/o2vmttyvvq3f1tGrFpeczdcjf3+BWG+7DajRUF/tsLhdwspv8AXiksNuOBwAA",
+					"encodedBody": true,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Alt-Svc": [
+							"quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+						],
+						"Cache-Control": [
+							"public, max-age=86400"
+						],
+						"Content-Encoding": [
+							"gzip"
+						],
+						"Content-Type": [
+							"application/json; charset=UTF-8"
+						],
+						"Date": [
+							"Thu, 31 Aug 2017 11:22:53 GMT"
+						],
+						"Expires": [
+							"Fri, 01 Sep 2017 11:22:53 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"mafe"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"Vary": [
+							"Accept-Language"
+						],
+						"X-Frame-Options": [
+							"SAMEORIGIN"
+						],
+						"X-Xss-Protection": [
+							"1; mode=block"
+						]
+					},
+					"templated": false
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/maps/api/geocode/json"
+					},
+					"method": {
+						"exactMatch": "GET"
+					},
+					"destination": {
+						"exactMatch": "maps.googleapis.com"
+					},
+					"scheme": {
+						"exactMatch": "https"
+					},
+					"query": {
+						"globMatch": "address=5-11 Lavington Street, London\u0026key=*"
+					},
+					"body": {
+						"jsonMatch": ""
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v4",
+		"hoverflyVersion": "v0.14.0",
+		"timeExported": "2017-08-31T12:24:18+01:00"
+	}
+}
